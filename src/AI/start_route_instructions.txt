@@ -1,0 +1,20 @@
+To use the new 'start' route:
+
+1. Make sure you have 'react-router-dom' installed:
+   npm install react-router-dom
+
+2. In your main App.js, import { BrowserRouter, Routes, Route } from 'react-router-dom'.
+
+3. Add a route for '/start' that renders <StartPage />.
+
+Example:
+import StartPage from './StartPage';
+...
+<BrowserRouter>
+  <Routes>
+    <Route path="/start" element={<StartPage />} />
+    {/* other routes */}
+  </Routes>
+</BrowserRouter>
+
+The StartPage will show wallpaper-main.jpg as the background.
