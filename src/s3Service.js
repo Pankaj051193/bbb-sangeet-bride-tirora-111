@@ -12,8 +12,8 @@ const ROOT_FOLDER = 'bride/';
 const s3 = new S3Client({
   region: REGION,
   credentials: {
-    accessKeyId: '', // <-- Replace with your AWS access key
-    secretAccessKey: '', // <-- Replace with your AWS secret key
+    accessKeyId: 'AKIAXXHXZN2U6Q46LMOO', // <-- Replace with your AWS access key
+    secretAccessKey: 'oCVt5ir5xbki0lxXoNeFglHEgoba4NfTa/WMhV4O', // <-- Replace with your AWS secret key
   },
 });
 
